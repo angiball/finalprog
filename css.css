@@ -1,0 +1,78 @@
+mark {
+    background-color: #7CFC00;
+    color:  #1A471A;
+}
+
+img {
+    border: 7px double #A320B9;
+    background-color: #FF33CC;
+}
+
+img.p {
+    border: 7px double #1A59D9;
+    background-color: #40bf40;
+}
+
+img.b {
+    border: none;
+    margin-left: 24cm;
+}
+
+img.l {
+    border: none;
+    margin-right: 26cm;
+}
+
+
+body {
+    background-color:  #FFD6F5;
+    text-align:center;
+}
+
+h2 {
+    color: 	#00BFFF;
+    font-style: italic;
+    font-size: 30px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h1 {
+    text-shadow: 0 0 0.2em #40bf40, 0 0 0.2em #40bf40, 0 0 0.2em #40bf40; 
+    color:#1A59D9;
+    font-size: 45px;
+    position: relative;
+    animation: mymove 1s infinite;
+    animation-direction: alternate;
+}
+
+pre {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: comic sans ms;
+}
+
+div {
+    position: relative;
+    animation: mymove 1s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes mymove {
+    0% {left: 0px; top: 0px;}
+    50% {left: 17px; top: 0px;}
+    100% {left: 0px; top: 0px;}
+}
+
+div.fly {
+    animation: flyup 10s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes flyup {
+    to {left: 0px; top: 0px;}
+    from {left: 0px; top: 700px;}
+    
+}
+
+
+
