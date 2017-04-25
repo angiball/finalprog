@@ -1,0 +1,58 @@
+h1 {
+    text-shadow: 0 0 0.2em #FF9933, 0 0 0.2em #FFBD21, 0 0 0.2em yellow, 0 0 0.2em yellow, 0 0 0.2em yellow; 
+    color: red;
+    font-size: 45px;
+}
+
+body {
+    background-color: #FFC963;
+    text-align:center;
+}
+
+h2 {
+    text-shadow: 0 0 0.2em #FF9933; 
+    color: #FF5C00;
+    font-size: 35px;
+}
+
+p {
+    color: #FF3BAD;
+    font-size: 25px;
+}
+
+img {
+    border: 25px double #FF9E00;
+    background-color: #FFE000;
+    border-radius: 20px;
+}
+
+
+div {
+    position: absolute;
+    animation: mymove 5s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes mymove {
+    0% {left: 0px; top: 0px;}
+    25% {left: 100px; top: 100px;}
+    50% {left: 200px; top: 0px;}
+    75% {left: 300px; top: 100px;}
+    100% {left: 400px; top: 0px;}
+}
+
+div.down {
+    position: absolute;
+    animation: down 5s infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes down {
+    0% {left: 0px; top: 0px;}
+    25% {left: 100px; top: 100px;}
+    50% {left: 0px; top: 200px;}
+    75% {left: 100px; top: 300px;}
+    100% {left: 0px; top: 400px;}
+}
+    
